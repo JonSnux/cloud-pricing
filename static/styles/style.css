@@ -1,0 +1,48 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin: 137px 625px 72px 625px;
+  padding-top: 3px;
+  width: min-content;
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+.title__text{
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.title__subtext {
+  font-size: 22px;
+  margin-right: 12px;
+  margin-top: 4px;
+}
+
+.cards {
+  margin: 0 419px 190px 419px;
+}
+
+.card__list {
+  display: flex;
+  gap: 6px;
+  list-style: none;
+}
+
+.card__list-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 266px;
+  height: 601px;
+}
+
+.card__image-snail {
+  padding-top: 15px;
+  width: 197px;
+  height: 115px;
+}
